@@ -30,27 +30,3 @@
     </section>
 
 </div>
-
-<script>
-    // Função para esconder todos os conteúdos
-    function hideAllContent() {
-        const contents = document.querySelectorAll('.content');
-        contents.forEach(content => {
-            content.style.display = 'none';
-        });
-    }
-
-    // Adicione event listeners para cada opção do menu
-    document.getElementById('menu-opcao1').addEventListener('click', function () {
-        hideAllContent();
-        document.getElementById('conteudo1').style.display = 'block';
-    });
-
-    document.getElementById('menu-opcao2').addEventListener('click', function () {
-        hideAllContent();
-        document.getElementById('conteudo2').style.display = 'block';
-    });
-
-    // Chame hideAllContent() para ocultar todos os conteúdos inicialmente
-    hideAllContent();
-</script>
