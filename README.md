@@ -1,5 +1,7 @@
 # G1_clone
 
+DEPLOY: https://sitedog1.000webhostapp.com/
+
 # Página Principal
 ![image](https://github.com/victoriaflb/G1_clone/assets/122183830/62efe54f-7c4c-4672-bbd2-7f0ff1038bdf)
 
