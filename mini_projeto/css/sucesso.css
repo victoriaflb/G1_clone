@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../assets/leone-venter-VieM9BdZKFo-unsplash.jpg");
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+}

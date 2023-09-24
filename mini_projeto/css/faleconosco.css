@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    min-width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.quadro{
+    margin-top:5rem;display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 500px; 
+    height:560px;
+    border-radius: 53px;
+    background: #e0e0e0;
+    box-shadow: inset 28px 28px 56px #a8a8a8,
+                inset -28px -28px 56px #ffffff;
+}
+
+.formulario{
+    display: flex; 
+    align-items:center; 
+    justify-content:center;
+    flex-direction:column;
+    
+}
+
+
+#resposta{
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.info{
+    color: #a8a8a8;
+}
+
+form{
+    text-align:justify;
+    display:flex;
+    flex-direction:column;
+    font-size: 20px;
+}
+
+input{
+    margin-top: 0.3rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+input:focus,textarea:focus{
+    border: 2px solid rgb(255, 0, 0);
+  transition-duration: .2s;
+}
+
+select{
+    margin-top: 1rem;
+}
+
+select, option{
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+    outline: none;
+}
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 190px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #e8e8e8;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
+  textarea{
+    margin-bottom: 1rem;
+  }
+
+ .botao{
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+    padding: 12.5px 10px ;
+    border: 0;
+    border-radius: 100px;
+    background-color: #a31111;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+ .botao:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+    box-shadow: 0 0 20px #e4070750;
+    transform: scale(1.1);
+  }
+  
+ .botao:active {
+    background-color: #f60909;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
